@@ -13,8 +13,8 @@
             string palindrome = Console.ReadLine().ToLower();
 
             int length = palindrome.Length;
-            string head = "";
-            string tail = "";
+            string head;
+            string tail;
             bool isPalindrome = false;
 
             if (length % 2 != 0)
