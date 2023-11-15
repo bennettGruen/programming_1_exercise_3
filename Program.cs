@@ -53,7 +53,6 @@
             {
                 bool isUppercase = false;
                 char tempChar = ch;
-                char newChar = ch;
 
                 if (char.IsUpper(tempChar))
                 {
